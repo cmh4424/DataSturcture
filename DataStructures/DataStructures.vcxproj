@@ -153,9 +153,11 @@
   <ItemGroup>
     <ClInclude Include="ArrayStack.h" />
     <ClInclude Include="Car.h" />
+    <ClInclude Include="Common\CommonSettings.h" />
     <ClInclude Include="Exponents.h" />
     <ClInclude Include="OperandStack.h" />
     <ClInclude Include="Polynomial.h" />
+    <ClInclude Include="queue\CircularQueue.h" />
     <ClInclude Include="SportsCar.h" />
     <ClInclude Include="Student.h" />
     <ClInclude Include="StudentStack.h" />
