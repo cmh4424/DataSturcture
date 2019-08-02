@@ -151,11 +151,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BankSimulator.h" />
     <ClInclude Include="CircularDeque.h" />
     <ClInclude Include="CircularQueue.h" />
+    <ClInclude Include="CustomerQueue.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CircularDeque.cpp" />
+    <ClCompile Include="BankSimulator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
