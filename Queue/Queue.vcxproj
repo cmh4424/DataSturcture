@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{51D2A5F9-1858-4E29-9CAA-E93BEE7410B7}</ProjectGuid>
+    <ProjectGuid>{8F1B5252-BADF-462B-B3C4-7572D43E8458}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>DataStructures</RootNamespace>
+    <RootNamespace>Queue</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,22 +151,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="ArrayStack.h" />
-    <ClInclude Include="Car.h" />
-    <ClInclude Include="Commons\Commonheader.h" />
-    <ClInclude Include="Common\CommonSettings.h" />
-    <ClInclude Include="Exponents.h" />
-    <ClInclude Include="OperandStack.h" />
-    <ClInclude Include="Polynomial.h" />
-    <ClInclude Include="queue\CircularQueue.h" />
-    <ClInclude Include="SportsCar.h" />
-    <ClInclude Include="Student.h" />
-    <ClInclude Include="StudentStack.h" />
-    <ClInclude Include="SumAlgorithm.h" />
-    <ClInclude Include="SparsePoly.h" />
+    <ClInclude Include="CircularDeque.h" />
+    <ClInclude Include="CircularQueue.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CheckMatching.cpp" />
+    <ClCompile Include="CircularDeque.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

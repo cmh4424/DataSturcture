@@ -7,7 +7,7 @@ inline void error(const char* str) {
 	exit(1);
 }
 class CircularQueue {
-private:
+protected:
 	int front;
 	int rear;
 	int data[MAX_QUEUE_SIZE] = { 0 };
