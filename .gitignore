@@ -1,6 +1,7 @@
 *.exe
 *.obj
+*debug/
 build/
 .vs/
 .git/
-.debug/
+debug/
