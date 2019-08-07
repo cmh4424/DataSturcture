@@ -157,9 +157,10 @@
     <ClInclude Include="CustomerQueue.h" />
     <ClInclude Include="fibonacciQueue.h" />
     <ClInclude Include="Location2D.h" />
+    <ClInclude Include="meetingSupport.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FibonacciQueue.cpp" />
+    <ClCompile Include="meetingSupport.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
